@@ -1,5 +1,5 @@
-/* How to use the DHT-22 sensor with Arduino uno
-   Temperature and humidity sensor
+/* How to use the AM2320B sensor with Arduino uno and WeMos D1 for
+   Temperature and humidity sensoron Mosquitto
 */
 
 //Libraries
@@ -10,7 +10,6 @@
 
 //Initializes AM2320B sensor instance
 AM2320 th;
-
 
 // Timers auxiliary variables
 long Tnow = millis();
